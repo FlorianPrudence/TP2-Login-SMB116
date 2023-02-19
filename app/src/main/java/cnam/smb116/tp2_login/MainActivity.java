@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void doCancel(View view){
-        Intent intent = new Intent();
         setResult(RESULT_CANCELED);
         finish();
     }
